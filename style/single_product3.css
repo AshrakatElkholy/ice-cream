@@ -1,0 +1,54 @@
+/* flavors */
+.flavors ,.popular{
+    background-image: linear-gradient(to right, #EFD7EF, #F5F9FC,#F8EAE1,#EAF8F9);
+    display: flex;
+    text-align: center;
+}
+.flavors .container , .popular .container{
+    width: 75%;
+}
+.flavors p ,.popular p{
+    color: #646464;
+}
+.flavors .container img ,.popular .container img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.flavors .figure ,.popular .figure{
+    width: 15%;
+    top: 25%;
+}
+.flavors-text ,.popular-text{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 64px;
+    font-size: 60px;
+
+}
+.flavors-text span ,.popular-text span{
+    color: #F83D8E;
+}
+.flavors button ,.popular button{
+    background-color: #F83D8E;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.flavors i ,.popular i{
+    color: rgb(240, 197, 8);
+}
+.flavors .row div ,.popular .row div{
+    height: 65vh ;
+    position: relative;
+    margin-bottom: 20px;
+}

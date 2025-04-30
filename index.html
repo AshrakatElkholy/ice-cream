@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Tales - Discover Sweet Delights</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="images/logo.png" alt="Ice Tales Logo">
+              <h1 class="brand-text ms-2">Icy<span class="second-word">Tales</span></h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                        Home
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                        <li><a class="dropdown-item" href="#home2">Home 2</a></li>
+                        <li><a class="dropdown-item" href="#home3">Home 3</a></li>
+                      </ul>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                          Pages
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#menu">Menu</a></li>
+                        <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+                        <li><a class="dropdown-item" href="single_product.html">single_product</a></li>
+                        <li><a class="dropdown-item" href="single_product1.html">single_product2</a></li>
+                        <li><a class="dropdown-item" href="single_product3.html">single_product3</a></li>
+                        <li><a class="dropdown-item" href="loadmore.html">Load More</a></li>
+                        <li><a class="dropdown-item" href="thankyou.html">thankyou</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                          Blog
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#blog">Latest News</a></li>
+                          <li><a class="dropdown-item" href="#recipes">Recipes</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#faqs">FAQ's</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#search">
+                          <i class="fas fa-search search-icon"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link cart-icon-wrapper" href="#cart">
+                          <i class="fas fa-shopping-bag"></i>
+                          <span class="cart-counter">0</span>
+                      </a>
+                  </li>
+                  <li class="nav-item ms-lg-3">
+                      <a href="contactus.html" class="btn btn-primary">Connect Us →</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+    <!-- Hero Section -->
+ 
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg-wrapper"></div>
+      <div class="container-hero">
+          <div class="row align-items-center">
+              <div class="side-img col-lg-2 mt-0 mb-5" data-aos="fade-left">
+                  <img src="images/sideee.png" alt="Our Ice Cream Making Process">
+              </div>
+              <div class="col-lg-4 hero-content" data-aos="fade-up">
+                  <span class="welcome-text">Welcome to The</span>
+                  <h1>Discover <span class="text-primary">Sweet</span><br>Delights!</h1>
+                  <p class="hero-description">Relish the timeless taste of handcrafted ice cream, made with passion and the finest ingredients.</p>
+                  <button class="btn btn-secondary">Browse Our Classic Flavors →</button>
+              </div>
+              <div class="col-lg-4 hero-image" data-aos="fade-left">
+                  <img src="images/banner2.png" alt="Delicious Ice Cream" class="img-fluid float-animation">
+              </div>
+          </div>
+      </div>
+      <div class="wave-section">
+          <div class="wave-bottom">
+              <svg viewBox="0 0 1200 100" preserveAspectRatio="none">
+                  <path d="M0,30 
+                          Q 40,0 80,30 
+                          T 160,30 
+                          T 240,30 
+                          T 320,30 
+                          T 400,30 
+                          T 480,30 
+                          T 560,30 
+                          T 640,30 
+                          T 720,30 
+                          T 800,30 
+                          T 880,30 
+                          T 960,30 
+                          T 1040,30 
+                          T 1120,30 
+                          T 1200,30 
+                          V100 H0 Z" 
+                      fill="#fff"/>
+              </svg>
+          </div>
+      </div>
+  </section>
+
+
+    <!-- Explore Section -->
+    <section class="explore-section d-flex align-items-stretch">
+        <div class="container">
+          <div class="row p-5 h-100">
+            <!-- Image Side -->
+            <div class="col-md-6 col-sm-12 position-relative d-flex align-items-end explore-bg-wrapper">
+              <img src="./images/relive-image1.png" class="img-fluid align-self-end full-height-img" alt="">
+              <img src="./images/Figure → relive-circle.png.png" class="position-absolute circle" alt="">
+              <img src="./images/Figure → relive-doted.png.png" class="position-absolute doted" alt="">
+            </div>
+      
+            <!-- Text Side -->
+            <div class="col-md-6 col-sm-12 d-flex align-items-center p-5 position-relative mt-5">
+              <div class="explore-text w-100 h-100 ">
+                <h2 class="w-75 mb-4">Relive the sweet Memories of Classic 
+                  <span>Ice Cream</span></h2>
+                <p>.</p>
+                <p>From rich chocolate fudge to creamy vanilla sundaes,
+                    discover our menu of classic ice cream creations.</p>
+                <button class="btn btn-primary mt-5">Explore Our Menu <i class="fa-solid fa-arrow-right"></i></button>
+      
+                <img src="./images/Figure → relive-triangle.png.png" class="position-absolute triangle" alt="">
+                <img class="position-absolute relive end-0 w-25"
+                     src="./images/Figure → relive-rightbottomimage.png.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="favorite">
+        <div class="favorite-wrapper"></div>
+        <div class="favorite-layout d-flex align-items-center justify-content-between position-relative">
+      
+          <!-- Left Side Image -->
+          <div class="side-img left-img" data-aos="fade-right">
+            <img src="images/classic-leftimage.png.png" alt="Left Decoration">
+          </div>
+      
+          <!-- Main Content -->
+          <div class="favorite-content container py-5 text-center">
+            <h2>Our <span class="second-word">Classic</span> Favorites</h2>
+            <p class="perfect-text">Check out our top products that our customers love.</p>
+      
+            <div class="row justify-content-center">
+              <!-- Repeat this block for each product -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image2.png.png" alt="Chocolate Brownie Sundae">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Chocolate Brownie</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>4.8</span></div>
+                      </div>
+                      <p class="second-title">Sundae</p>
+                      <p class="product-description">Rich chocolate ice cream</p>
+                      <p class="product-description">with chunks of brownie</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$5.49</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Repeat the above block for the 3 remaining cards -->
+              <!-- Card 2 -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image3.png.png" alt="Strawberry Shortcake">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Strawberry</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>4.9</span></div>
+                      </div>
+                      <p class="second-title">Shortcake</p>
+                      <p class="product-description">Strawberry ice cream layered</p>
+                      <p class="product-description">with shortcake.</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$5.29</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Card 3 -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image4.png.png" alt="Mint Chocolate Chip">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Mint Chocolate</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>4.7</span></div>
+                      </div>
+                      <p class="second-title">Chip</p>
+                      <p class="product-description">Refreshing mint ice cream</p>
+                      <p class="product-description">with chocolate chips</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$4.99</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Card 4 -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image1.png.png" alt="Classic Vanilla">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Classic</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>5.0</span></div>
+                      </div>
+                      <p class="second-title">Vanilla</p>
+                      <p class="product-description">Creamy vanilla ice cream</p>
+                      <p class="product-description">topped with cherry</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$4.49</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+          <!-- Right Side Image -->
+          <div class="side-img right-img" data-aos="fade-left">
+            <img src="images/classic-rightimage.png.png" alt="Right Decoration">
+          </div>
+      
+        </div>
+      </section>
+      
+      
+
+
+    <section class="Categories">
+        <div class="container text-center py-5">
+            <h2>Explore Our <span>Categories</span></h2>
+            <p class="perfect-text">Browse through our different categories to find your favorite ice cream treats..</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="position-relative p-2">
+                        <img class="w-100 rounded-4" src="./images/categories-image1.jpg.png" alt="">
+                        <div class="Categories-footer d-flex justify-content-between position-absolute">
+                            <p class="pt-2">Sundaes</p>
+                            <span class="icon-circle text-light d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="position-relative p-2">
+                        <img class="w-100 rounded-4" src="./images/categories-image2.jpg.png" alt="">
+                        <div class="Categories-footer d-flex justify-content-between position-absolute">
+                            <p class="pt-2">Ice Cream Cones</p>
+                            <span class="icon-circle text-light d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="position-relative p-2">
+                        <img class="w-100 rounded-4" src="./images/categories-image3.jpg.png" alt="">
+                        <div class="Categories-footer d-flex justify-content-between position-absolute">
+                            <p class="pt-2">Milkshakes</p>
+                            <span class="icon-circle text-light d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="position-relative p-2">
+                        <img class="w-100 rounded-4" src="./images/categories-image4.jpg.png" alt="">
+                        <div class="Categories-footer d-flex justify-content-between position-absolute">
+                            <p class="pt-2">Seasonal Flavors</p>
+                            <span class="icon-circle text-light d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        
+    </section>
+    <section class="summer-special-section position-relative">
+      <div class="summer-back-img">
+          <img src="images/special-rightimagee.png" alt="">
+      </div>
+      <!-- Dotted path from image to badge -->
+      <div class="dotted-path-container">
+          <div class="dotted-path"></div>
+          <div class="arrow-head"></div>
+      </div>
+      
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-6 promo-content">
+                  <!-- Decorative elements -->
+                  <div class="decoration-triangle"></div>
+                  <div class="decoration-dots mt-3">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                  </div>
+                  <div class="decoration-line"></div>
+                  
+                  <h2 class="promo-title">Summer<br>Special!</h2>
+                  <p class="promo-text">Buy One Sundae, Get One 50% Off!</p>
+                  
+                  <div class="d-flex align-items-center flex-wrap">
+                      <button class="btn btn-promo me-3">
+                          Get This Deal
+                          <i class="fas fa-arrow-right ms-2"></i>
+                      </button>
+                      
+                      <p class="mb-0 coupon-code">Use code: SUMMER50 at checkout</p>
+                  </div>
+              </div>
+              
+              <div class="col-md-6 promo-img-container">
+                  <!-- Ice cream image with discount badge overlay -->
+                  <div class="position-relative">
+                      <div class="badge-discount me-5">
+                          <span class="percent">50%</span>
+                          <span class="off">OFF</span>
+                      </div>
+                      <img src="images/Figure → special-image.png.png" alt="Ice cream sundae in a bowl" class="ice-cream-img">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+<!-- best sellers -->
+    <section class="favorite">
+        <div class="favorite-wrapper"></div>
+        <div class="favorite-layout d-flex align-items-center justify-content-between position-relative">
+      
+       
+          <!-- Main Content -->
+          <div class="favorite-content container py-5 text-center">
+            <h2>Our  <span class="second-word">Best</span> Sellers</h2>
+            <p class="perfect-text">Discover the favorites that keep our customers coming back for more</p>
+      
+            <div class="row justify-content-center">
+              <!-- Repeat this block for each product -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image2.png.png" alt="Chocolate Brownie Sundae">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Chocolate Brownie</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>4.8</span></div>
+                      </div>
+                      <p class="second-title">Sundae</p>
+                      <p class="product-description">Rich chocolate ice cream</p>
+                      <p class="product-description">with chunks of brownie</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$5.49</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Repeat the above block for the 3 remaining cards -->
+              <!-- Card 2 -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image3.png.png" alt="Strawberry Shortcake">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Strawberry</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>4.9</span></div>
+                      </div>
+                      <p class="second-title">Shortcake</p>
+                      <p class="product-description">Strawberry ice cream layered</p>
+                      <p class="product-description">with shortcake.</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$5.29</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Card 3 -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image4.png.png" alt="Mint Chocolate Chip">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Mint Chocolate</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>4.7</span></div>
+                      </div>
+                      <p class="second-title">Chip</p>
+                      <p class="product-description">Refreshing mint ice cream</p>
+                      <p class="product-description">with chocolate chips</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$4.99</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Card 4 -->
+              <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/Figure → classic-image1.png.png" alt="Classic Vanilla">
+                    <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                  </div>
+                  <div class="product-info d-flex flex-column justify-content-between">
+                    <div>
+                      <div class="top-row d-flex justify-content-between">
+                        <span class="product-title">Classic</span>
+                        <div class="rating"><i class="fas fa-star"></i> <span>5.0</span></div>
+                      </div>
+                      <p class="second-title">Vanilla</p>
+                      <p class="product-description">Creamy vanilla ice cream</p>
+                      <p class="product-description">topped with cherry</p>
+                    </div>
+                    <div class="bottom-row d-flex justify-content-between align-items-center">
+                      <span class="price">$4.49</span>
+                      <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+       
+        
+      
+        </div>
+      </section>
+      <section class="ice-cream-lovers d-flex align-items-center justify-content-center position-relative" style="min-height:100vh; background: linear-gradient(135deg, #fff0f5, #f0f8ff); overflow:hidden;">
+       
+        <div class="container position-relative z-2">
+          <h2 class="mb-4 text-center" style="font-family: 'Berkshire Swash', cursive; font-size: 48px;">
+            <div>Hear from Our <span>Happy</span></div>
+            <div><span > Ice Cream</span> Lovers</div>
+          </h2>
+          <div class="position-relative d-flex flex-column justify-content-center align-items-center">
+            <!-- Customer Images Floating Around -->
+            <img src="images/Figure → testimonial-image1.png.png" class="rounded-circle position-absolute" style="top: -50px; left: 20%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image2.png.png" class="rounded-circle position-absolute" style="top: 0; right: 20%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image3.png.png" class="rounded-circle position-absolute" style="bottom: 10%; left: 15%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image4.png.png" class="rounded-circle position-absolute" style="bottom: 10%; right: 15%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image6.png.png" class="rounded-circle position-absolute" style="top: 50%; left: -5%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image8.png.png" class="rounded-circle position-absolute" style="top: 50%; right: -5%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image6.png.png" class="rounded-circle position-absolute" style="top: 30%; left: 10%;" width="60" alt="">
+            <img src="images/Figure → testimonial-image8.png.png" class="rounded-circle position-absolute" style="top: 30%; right: 10%;" width="60" alt="">
+            <!-- Main Review Text -->
+            <div class="text-center" style="max-width: 600px;">
+              <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas as pernatur aut odit aut fugit, sed beatae vitae dicta ripiscing elit, sed do euismod tempor incidunt. Labore et dolore magna aliqua ut enim ad minim adipiscing elit, sed do euismod tempor incidunt aut labore.</p>
+              <h5 class="fw-bold">Kevin Andrew</h5>
+              <p class="text-muted small mb-1">Happy Customer</p>
+              <div class="text-warning mb-2">★★★★★</div>
+              <div class="d-flex justify-content-center gap-2">
+                <div class="rounded-circle bg-pink" style="width: 10px; height: 10px;"></div>
+                <div class="rounded-circle bg-secondary" style="width: 10px; height: 10px;"></div>
+                <div class="rounded-circle bg-secondary" style="width: 10px; height: 10px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+       
+<section class="deal p-5">
+  <div class="container text-center py-5 position-relative">
+      <img src="./images/Figure → relive-triangle.png.png" class="position-absolute triangle" alt="">
+      <img src="./images/Figure → relive-circle.png.png" class="position-absolute circle" alt="">
+<h2>Sign up For <span>Exclusive Deals</span>
+  and Updates</h2>
+  <p class="mt-3">Get 10% off your next order and stay updated with our latest offers.</p>
+  <div class="email mb-4">
+      <input type="email" placeholder="Enter your email address" class="w-50" id="email">
+      <button>Subscribe</button>
+  </div>
+  <input type="radio" name="agree" id="agree">
+  <label for="email">I agree to the <span>Privacy Policy</span></label>
+  </div>
+</section>
+
+    <section class="follow-on-instagram">
+        <div class="container text-center py-5">
+            <h2>Follow Us on <span>Instagram</span></h2>
+            <p class="perfect-text">Join our Instagram community for updates, special deals, and more.</p>
+            <div class="cards-grid">
+                <div class="grid-item">
+                    <img src="./images/follow-image1.jpg.png" alt="Category 1">
+                </div>
+                <div class="grid-item">
+                    <img src="./images/follow-image2.jpg.png" alt="Category 2">
+                </div>
+                <div class="grid-item">
+                    <img src="./images/follow-image3.jpg.png" alt="Category 3">
+                </div>
+                <div class="grid-item">
+                    <img src="./images/follow-image4.jpg.png" alt="Category 4">
+                </div>
+                <div class="grid-item">
+                    <img src="./images/follow-image5.jpg.png" alt="Category 5">
+                </div>
+            </div>
+        </div>
+    </section>
+      
+  
+
+     <!-- Footer -->
+     <footer class="footer position-relative">
+        <div class="footer-side-img">
+            <img src="images/sideee.png" alt="Our Ice Cream Making Process">
+        </div>
+        <div class="container">
+            <!-- Side Image -->
+
+
+            <div class="row gy-4">
+                <!-- Logo and Brand Column -->
+                <div class="col-lg-3 col-md-6">
+                    <a class="footer-brand d-flex align-items-center mb-4" href="#">
+                        <img src="images/logof.png" alt="Ice Tales Logo" class="footer-logo">
+                        <h1 class="brand-text ms-2">Icy<span class="second-word">Tales</span></h1>
+                    </a>
+                </div>
+
+                <!-- Navigation Links Column -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Navigation</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#shop">Shop</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="single_product.html">Products</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#content">Content</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="mb-4 d-flex align-items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="ms-3">
+                                <strong>Address:</strong>
+                                <span class="text-light-gray">121 King Street Melbourne, 3000, Australia</span>
+                            </div>
+                        </div>
+                        <div class="mb-4 d-flex align-items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="ms-3">
+                                <strong>Email:</strong>
+                                <span class="text-light-gray">info@example.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Number and Social Icons Column -->
+                <div class="col-lg-2 col-md-6">
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="ms-3">
+                            <strong>+123456780123</strong><br>
+                            <span class="text-light-gray">Got Questions? Call us 24/7</span>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom mt-5">
+                <div class="text-center">
+                    <p>&copy; 2024 IcyTales. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Scripts -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+     <!-- Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="js/main.js"></script>
+ </body>
+ </html>
